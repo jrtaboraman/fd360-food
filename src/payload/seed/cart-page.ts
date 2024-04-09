@@ -71,7 +71,7 @@ export const cartPage: Partial<Page> = {
         {
           children: [
             {
-              text: 'Continue shopping',
+              text: 'Look for more food',
             },
           ],
           type: 'h4',
@@ -106,7 +106,7 @@ export const cartPage: Partial<Page> = {
               relationTo: 'pages',
               value: '{{PRODUCTS_PAGE_ID}}',
             },
-            label: 'Continue shopping',
+            label: 'Look for more food',
             appearance: 'primary',
           },
         },
